@@ -10,6 +10,7 @@
 		6280674CA98E50597E11EEA4 /* Pods_StuffAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CF52121E53AA28317A5C9 /* Pods_StuffAppTests.framework */; };
 		7921FC3FDC82E979FC3EA72D /* Pods_StuffApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D23860735BDB41071BF0A5 /* Pods_StuffApp.framework */; };
 		B82CE94F720A681CA7E74498 /* Pods_StuffApp_StuffAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4420C5475F83A02787D0BE98 /* Pods_StuffApp_StuffAppUITests.framework */; };
+		DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50220423CB8D710090CED4 /* SessionStore.swift */; };
 		DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628723CA605B0030A90D /* AppDelegate.swift */; };
 		DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628923CA605B0030A90D /* SceneDelegate.swift */; };
 		DFDD628C23CA605B0030A90D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628B23CA605B0030A90D /* ContentView.swift */; };
@@ -48,6 +49,7 @@
 		59E0382C41D7BF1C9895A4F0 /* Pods-StuffApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuffApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StuffApp/Pods-StuffApp.release.xcconfig"; sourceTree = "<group>"; };
 		66BF340067C4F893865A29B6 /* Pods-StuffAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuffAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StuffAppTests/Pods-StuffAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C3B57B523FE474184B4FB9B7 /* Pods-StuffApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuffApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StuffApp/Pods-StuffApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DF50220423CB8D710090CED4 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		DFDD628423CA605B0030A90D /* StuffApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDD628723CA605B0030A90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDD628923CA605B0030A90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DF50220323CB8D520090CED4 /* FirebaseSession */ = {
+			isa = PBXGroup;
+			children = (
+				DF50220423CB8D710090CED4 /* SessionStore.swift */,
+			);
+			path = FirebaseSession;
+			sourceTree = "<group>";
+		};
 		DFDD627B23CA605B0030A90D = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 		DFDD628623CA605B0030A90D /* StuffApp */ = {
 			isa = PBXGroup;
 			children = (
+				DF50220323CB8D520090CED4 /* FirebaseSession */,
 				DFDD62C023CA6E500030A90D /* View */,
 				DFDD628723CA605B0030A90D /* AppDelegate.swift */,
 				DFDD628923CA605B0030A90D /* SceneDelegate.swift */,
@@ -432,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */,
 				DFDD62BD23CA6C0F0030A90D /* LoginScreenUIView.swift in Sources */,
 				DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */,
 				DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */,
