@@ -20,8 +20,11 @@ struct SessionView: View {
         Group {
             if (session.session != nil) {
                 Text("Welcome back user")
+                Button(action: session.signOut){
+                    Text("Sign out")
+                }
             } else {
-                Text("Show Auth Screen")
+                AuthView()
             }
             
         }.onAppear(perform: getUser)
