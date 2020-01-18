@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+let lightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0)
+
 struct SignInView: View {
     
     @State var email: String = ""
@@ -28,38 +30,47 @@ struct SignInView: View {
     
     var body: some View {
         VStack {
-            Text("Welcome back!")
-                .font(.system(size: 32, weight: .heavy))
-            Text("Sign in to continue")
-            .font(.system(size: 18, weight: .medium))
-                .foregroundColor(.gray)
+            Text("Welcome!")
+            .font(.largeTitle)
+            .fontWeight(.semibold)
+            .padding(.bottom, 20)
             
-            VStack(spacing: 18) {
-                TextField("Email adress", text: $email)
-                    .font(.system(size: 14))
-                .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.black, lineWidth: 1))
-                
-                SecureField("Password", text: $password)
-                    .font(.system(size: 14))
-                .padding(12)
-                .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.black, lineWidth: 1))
-            }
-            .padding(.vertical, 64)
+            Image("logo")
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: 150, height: 150)
+            .clipped()
+            .cornerRadius(150)
+            .padding(.bottom, 75)
+            
+           
+            
+            TextField("Username", text: $email)
+                .padding()
+                .background(lightGreyColor)
+                .cornerRadius(5.0)
+                .padding(.bottom, 20)
+            
+            SecureField("Password", text: $password)
+                .padding()
+                .background(lightGreyColor)
+                .cornerRadius(5.0)
+                .padding(.bottom, 20)
+            
             
             Button(action: signIn){
-                Text("Sign in")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .frame(height: 50)
-                    .foregroundColor(.white)
-                    .font(.system(size: 14, weight: .bold))
-                    .background(LinearGradient(gradient: Gradient(colors: [.red, .black, .red]), startPoint: .leading, endPoint: .trailing))
-                .cornerRadius(5)
+                Text("LOGIN")
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+                .frame(width: 220, height: 60)
+                .background(Color.green)
+                .cornerRadius(15.0)
             }
             if (error != "") {
                 Text(error)
                     .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(.red)
+                    .foregroundColor(.blue)
                 .padding()
                 
             }
@@ -73,7 +84,7 @@ struct SignInView: View {
                     
                     Text("Create an account")
                         .font(.system(size: 14 ,weight: .semibold))
-                        .foregroundColor(.red)
+                        .foregroundColor(.green)
                     
                 }
             }
@@ -103,38 +114,48 @@ struct SignUpView: View {
     
     var body: some View {
         VStack {
+            
             Text("Create Account")
-                .font(.system(size: 32 ,weight: .heavy))
+            .font(.largeTitle)
+            .fontWeight(.semibold)
             
             Text("Sing up to get started")
                 .font(.system(size: 18, weight: .medium))
                 .foregroundColor(.gray)
             
-            VStack(spacing: 18) {
-                TextField("Email address", text: $email)
-                    .font(.system(size: 14))
-                .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.gray,lineWidth: 1))
-                
-                SecureField("Password", text: $password)
-                .font(.system(size: 14))
-                .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.gray,lineWidth: 1))
-            }.padding(.vertical, 64)
+            Image("logo")
+                       .resizable()
+                       .aspectRatio(contentMode: .fill)
+                       .frame(width: 150, height: 150)
+                       .clipped()
+                       .cornerRadius(150)
+                       .padding(.bottom, 75)
+            
+            TextField("Username", text: $email)
+                .padding()
+                .background(lightGreyColor)
+                .cornerRadius(5.0)
+                .padding(.bottom, 20)
+            
+            SecureField("Password", text: $password)
+                .padding()
+                .background(lightGreyColor)
+                .cornerRadius(5.0)
+                .padding(.bottom, 20)
          
             Button(action: signUp) {
                 Text("Create Account")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .frame(height: 50)
+                    .font(.headline)
                     .foregroundColor(.white)
-                    .font(.system(size: 14 , weight: .bold))
-                        .background(LinearGradient(gradient: Gradient(colors: [.red, .black, .red]),startPoint: .leading, endPoint: .trailing))
-                .cornerRadius(5)
+                    .padding()
+                    .frame(width: 220, height: 60)
+                    .background(Color.green)
+                    .cornerRadius(15.0)
             }
             if (error != "") {
                           Text(error)
                               .font(.system(size: 14, weight: .semibold))
-                              .foregroundColor(.red)
+                              .foregroundColor(.blue)
                           .padding()
                           
                       }
