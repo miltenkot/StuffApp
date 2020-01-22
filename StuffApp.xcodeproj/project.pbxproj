@@ -13,6 +13,14 @@
 		DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50220423CB8D710090CED4 /* SessionStore.swift */; };
 		DF772E4523CE457F0008539E /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4423CE457F0008539E /* SessionView.swift */; };
 		DF772E4723CE472D0008539E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4623CE472C0008539E /* AuthView.swift */; };
+		DF8A194D23D4C3AA00C3EF4A /* UserCockpit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A194C23D4C3AA00C3EF4A /* UserCockpit.swift */; };
+		DFBC878123D907BF00428A0D /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877A23D907BF00428A0D /* RKViewController.swift */; };
+		DFBC878223D907BF00428A0D /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877B23D907BF00428A0D /* RKManager.swift */; };
+		DFBC878323D907BF00428A0D /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */; };
+		DFBC878423D907BF00428A0D /* RKMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877D23D907BF00428A0D /* RKMonth.swift */; };
+		DFBC878523D907BF00428A0D /* RKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877E23D907BF00428A0D /* RKCell.swift */; };
+		DFBC878623D907BF00428A0D /* RKColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877F23D907BF00428A0D /* RKColorSettings.swift */; };
+		DFBC878723D907BF00428A0D /* RKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC878023D907BF00428A0D /* RKDate.swift */; };
 		DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628723CA605B0030A90D /* AppDelegate.swift */; };
 		DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628923CA605B0030A90D /* SceneDelegate.swift */; };
 		DFDD628E23CA60630030A90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDD628D23CA60630030A90D /* Assets.xcassets */; };
@@ -52,6 +60,14 @@
 		DF50220423CB8D710090CED4 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		DF772E4423CE457F0008539E /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		DF772E4623CE472C0008539E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		DF8A194C23D4C3AA00C3EF4A /* UserCockpit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCockpit.swift; sourceTree = "<group>"; };
+		DFBC877A23D907BF00428A0D /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
+		DFBC877B23D907BF00428A0D /* RKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKManager.swift; sourceTree = "<group>"; };
+		DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
+		DFBC877D23D907BF00428A0D /* RKMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKMonth.swift; sourceTree = "<group>"; };
+		DFBC877E23D907BF00428A0D /* RKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKCell.swift; sourceTree = "<group>"; };
+		DFBC877F23D907BF00428A0D /* RKColorSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKColorSettings.swift; sourceTree = "<group>"; };
+		DFBC878023D907BF00428A0D /* RKDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKDate.swift; sourceTree = "<group>"; };
 		DFDD628423CA605B0030A90D /* StuffApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDD628723CA605B0030A90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDD628923CA605B0030A90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +144,20 @@
 			path = FirebaseSession;
 			sourceTree = "<group>";
 		};
+		DFBC877923D907BF00428A0D /* CalendarManager */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC877A23D907BF00428A0D /* RKViewController.swift */,
+				DFBC877B23D907BF00428A0D /* RKManager.swift */,
+				DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */,
+				DFBC877D23D907BF00428A0D /* RKMonth.swift */,
+				DFBC877E23D907BF00428A0D /* RKCell.swift */,
+				DFBC877F23D907BF00428A0D /* RKColorSettings.swift */,
+				DFBC878023D907BF00428A0D /* RKDate.swift */,
+			);
+			path = CalendarManager;
+			sourceTree = "<group>";
+		};
 		DFDD627B23CA605B0030A90D = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +191,7 @@
 				DFDD629223CA60630030A90D /* LaunchScreen.storyboard */,
 				DFDD629523CA60630030A90D /* Info.plist */,
 				DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */,
+				DFBC877923D907BF00428A0D /* CalendarManager */,
 				DFDD628F23CA60630030A90D /* Preview Content */,
 			);
 			path = StuffApp;
@@ -197,6 +228,7 @@
 			children = (
 				DF772E4623CE472C0008539E /* AuthView.swift */,
 				DF772E4423CE457F0008539E /* SessionView.swift */,
+				DF8A194C23D4C3AA00C3EF4A /* UserCockpit.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,9 +477,17 @@
 			files = (
 				DF772E4723CE472D0008539E /* AuthView.swift in Sources */,
 				DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */,
+				DFBC878223D907BF00428A0D /* RKManager.swift in Sources */,
+				DFBC878723D907BF00428A0D /* RKDate.swift in Sources */,
 				DF772E4523CE457F0008539E /* SessionView.swift in Sources */,
 				DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */,
+				DFBC878623D907BF00428A0D /* RKColorSettings.swift in Sources */,
+				DF8A194D23D4C3AA00C3EF4A /* UserCockpit.swift in Sources */,
 				DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */,
+				DFBC878423D907BF00428A0D /* RKMonth.swift in Sources */,
+				DFBC878523D907BF00428A0D /* RKCell.swift in Sources */,
+				DFBC878123D907BF00428A0D /* RKViewController.swift in Sources */,
+				DFBC878323D907BF00428A0D /* RKWeekdayHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
