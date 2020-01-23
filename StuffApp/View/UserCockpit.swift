@@ -9,12 +9,16 @@
 import SwiftUI
 
 struct UserCockpit: View {
+    @State var multipleIsPresented = true
+    
+    var rkManager1 = RKManager(calendar: Calendar.current, minimumDate: Date(), maximumDate: Date().addingTimeInterval(60*60*24*365), mode: 3)
+       
+    
     var body: some View {
-        NavigationView {
-            Text("cos")
+        
+            RKViewController(isPresented: self.$multipleIsPresented, rkManager: self.rkManager1)
             
         }
-    }
 }
 
 struct UserCockpit_Previews: PreviewProvider {

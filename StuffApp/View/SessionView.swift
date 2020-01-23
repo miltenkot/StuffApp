@@ -23,6 +23,8 @@ struct SessionView: View {
                 Button(action: session.signOut){
                     Text("Sign out")
                 }
+                UserCockpit()
+                
             } else {
                 AuthView()
             }
