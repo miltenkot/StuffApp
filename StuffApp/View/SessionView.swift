@@ -19,11 +19,15 @@ struct SessionView: View {
     var body: some View {
         Group {
             if (session.session != nil) {
+                VStack {
                 Text("Welcome back user")
                 Button(action: session.signOut){
                     Text("Sign out")
                 }
+                    Spacer()
                 UserCockpit()
+                    Spacer()
+                }
                 
             } else {
                 AuthView()

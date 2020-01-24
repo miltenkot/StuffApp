@@ -13,7 +13,6 @@
 		DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50220423CB8D710090CED4 /* SessionStore.swift */; };
 		DF772E4523CE457F0008539E /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4423CE457F0008539E /* SessionView.swift */; };
 		DF772E4723CE472D0008539E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4623CE472C0008539E /* AuthView.swift */; };
-		DF8A194D23D4C3AA00C3EF4A /* UserCockpit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A194C23D4C3AA00C3EF4A /* UserCockpit.swift */; };
 		DFBC878123D907BF00428A0D /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877A23D907BF00428A0D /* RKViewController.swift */; };
 		DFBC878223D907BF00428A0D /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877B23D907BF00428A0D /* RKManager.swift */; };
 		DFBC878323D907BF00428A0D /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */; };
@@ -29,6 +28,7 @@
 		DFDD629F23CA60640030A90D /* StuffAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD629E23CA60640030A90D /* StuffAppTests.swift */; };
 		DFDD62AA23CA60640030A90D /* StuffAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD62A923CA60640030A90D /* StuffAppUITests.swift */; };
 		DFDD62BF23CA6C9F0030A90D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */; };
+		DFF63AC923DB9F1600C1B9A6 /* UserCockpit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,6 @@
 		DF50220423CB8D710090CED4 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		DF772E4423CE457F0008539E /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		DF772E4623CE472C0008539E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
-		DF8A194C23D4C3AA00C3EF4A /* UserCockpit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCockpit.swift; sourceTree = "<group>"; };
 		DFBC877A23D907BF00428A0D /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
 		DFBC877B23D907BF00428A0D /* RKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKManager.swift; sourceTree = "<group>"; };
 		DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		DFDD62A923CA60640030A90D /* StuffAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffAppUITests.swift; sourceTree = "<group>"; };
 		DFDD62AB23CA60640030A90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCockpit.swift; sourceTree = "<group>"; };
 		F7D23860735BDB41071BF0A5 /* Pods_StuffApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StuffApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -228,7 +228,7 @@
 			children = (
 				DF772E4623CE472C0008539E /* AuthView.swift */,
 				DF772E4423CE457F0008539E /* SessionView.swift */,
-				DF8A194C23D4C3AA00C3EF4A /* UserCockpit.swift */,
+				DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -479,10 +479,10 @@
 				DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */,
 				DFBC878223D907BF00428A0D /* RKManager.swift in Sources */,
 				DFBC878723D907BF00428A0D /* RKDate.swift in Sources */,
+				DFF63AC923DB9F1600C1B9A6 /* UserCockpit.swift in Sources */,
 				DF772E4523CE457F0008539E /* SessionView.swift in Sources */,
 				DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */,
 				DFBC878623D907BF00428A0D /* RKColorSettings.swift in Sources */,
-				DF8A194D23D4C3AA00C3EF4A /* UserCockpit.swift in Sources */,
 				DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */,
 				DFBC878423D907BF00428A0D /* RKMonth.swift in Sources */,
 				DFBC878523D907BF00428A0D /* RKCell.swift in Sources */,
