@@ -13,6 +13,7 @@
 		DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50220423CB8D710090CED4 /* SessionStore.swift */; };
 		DF772E4523CE457F0008539E /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4423CE457F0008539E /* SessionView.swift */; };
 		DF772E4723CE472D0008539E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4623CE472C0008539E /* AuthView.swift */; };
+		DFB35DE723E8C6E100CB3D4E /* UserCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB35DE623E8C6E100CB3D4E /* UserCalendar.swift */; };
 		DFBC878123D907BF00428A0D /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877A23D907BF00428A0D /* RKViewController.swift */; };
 		DFBC878223D907BF00428A0D /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877B23D907BF00428A0D /* RKManager.swift */; };
 		DFBC878323D907BF00428A0D /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */; };
@@ -60,6 +61,7 @@
 		DF50220423CB8D710090CED4 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		DF772E4423CE457F0008539E /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		DF772E4623CE472C0008539E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		DFB35DE623E8C6E100CB3D4E /* UserCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCalendar.swift; sourceTree = "<group>"; };
 		DFBC877A23D907BF00428A0D /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
 		DFBC877B23D907BF00428A0D /* RKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKManager.swift; sourceTree = "<group>"; };
 		DFBC877C23D907BF00428A0D /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				DF772E4623CE472C0008539E /* AuthView.swift */,
 				DF772E4423CE457F0008539E /* SessionView.swift */,
 				DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */,
+				DFB35DE623E8C6E100CB3D4E /* UserCalendar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 			files = (
 				DF772E4723CE472D0008539E /* AuthView.swift in Sources */,
 				DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */,
+				DFB35DE723E8C6E100CB3D4E /* UserCalendar.swift in Sources */,
 				DFBC878223D907BF00428A0D /* RKManager.swift in Sources */,
 				DFBC878723D907BF00428A0D /* RKDate.swift in Sources */,
 				DFF63AC923DB9F1600C1B9A6 /* UserCockpit.swift in Sources */,
