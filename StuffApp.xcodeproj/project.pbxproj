@@ -10,6 +10,11 @@
 		6280674CA98E50597E11EEA4 /* Pods_StuffAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CF52121E53AA28317A5C9 /* Pods_StuffAppTests.framework */; };
 		7921FC3FDC82E979FC3EA72D /* Pods_StuffApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D23860735BDB41071BF0A5 /* Pods_StuffApp.framework */; };
 		B82CE94F720A681CA7E74498 /* Pods_StuffApp_StuffAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4420C5475F83A02787D0BE98 /* Pods_StuffApp_StuffAppUITests.framework */; };
+		DF06C48A23EF3A52001AB3AF /* TicketDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C48923EF3A52001AB3AF /* TicketDate.swift */; };
+		DF06C48C23EF4A07001AB3AF /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C48B23EF4A07001AB3AF /* DateView.swift */; };
+		DF06C48F23EF4A57001AB3AF /* DateShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C48E23EF4A57001AB3AF /* DateShape.swift */; };
+		DF06C49223EF4D95001AB3AF /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C49123EF4D95001AB3AF /* ColorExt.swift */; };
+		DF06C49423EF4F8F001AB3AF /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C49323EF4F8F001AB3AF /* TimeView.swift */; };
 		DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50220423CB8D710090CED4 /* SessionStore.swift */; };
 		DF772E4523CE457F0008539E /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4423CE457F0008539E /* SessionView.swift */; };
 		DF772E4723CE472D0008539E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4623CE472C0008539E /* AuthView.swift */; };
@@ -21,6 +26,8 @@
 		DFBC878523D907BF00428A0D /* RKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877E23D907BF00428A0D /* RKCell.swift */; };
 		DFBC878623D907BF00428A0D /* RKColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877F23D907BF00428A0D /* RKColorSettings.swift */; };
 		DFBC878723D907BF00428A0D /* RKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC878023D907BF00428A0D /* RKDate.swift */; };
+		DFDB58FA23EB3D07002EC058 /* DateTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDB58F923EB3D07002EC058 /* DateTimeView.swift */; };
+		DFDB58FC23EB3FCD002EC058 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDB58FB23EB3FCD002EC058 /* DateExt.swift */; };
 		DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628723CA605B0030A90D /* AppDelegate.swift */; };
 		DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD628923CA605B0030A90D /* SceneDelegate.swift */; };
 		DFDD628E23CA60630030A90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDD628D23CA60630030A90D /* Assets.xcassets */; };
@@ -58,6 +65,11 @@
 		59E0382C41D7BF1C9895A4F0 /* Pods-StuffApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuffApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StuffApp/Pods-StuffApp.release.xcconfig"; sourceTree = "<group>"; };
 		66BF340067C4F893865A29B6 /* Pods-StuffAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuffAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StuffAppTests/Pods-StuffAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C3B57B523FE474184B4FB9B7 /* Pods-StuffApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StuffApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StuffApp/Pods-StuffApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DF06C48923EF3A52001AB3AF /* TicketDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDate.swift; sourceTree = "<group>"; };
+		DF06C48B23EF4A07001AB3AF /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		DF06C48E23EF4A57001AB3AF /* DateShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateShape.swift; sourceTree = "<group>"; };
+		DF06C49123EF4D95001AB3AF /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		DF06C49323EF4F8F001AB3AF /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		DF50220423CB8D710090CED4 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		DF772E4423CE457F0008539E /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		DF772E4623CE472C0008539E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -69,6 +81,8 @@
 		DFBC877E23D907BF00428A0D /* RKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKCell.swift; sourceTree = "<group>"; };
 		DFBC877F23D907BF00428A0D /* RKColorSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKColorSettings.swift; sourceTree = "<group>"; };
 		DFBC878023D907BF00428A0D /* RKDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKDate.swift; sourceTree = "<group>"; };
+		DFDB58F923EB3D07002EC058 /* DateTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeView.swift; sourceTree = "<group>"; };
+		DFDB58FB23EB3FCD002EC058 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		DFDD628423CA605B0030A90D /* StuffApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDD628723CA605B0030A90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDD628923CA605B0030A90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +152,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DF06C48823EF3A38001AB3AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF06C48923EF3A52001AB3AF /* TicketDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF06C48D23EF4A38001AB3AF /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				DF06C48E23EF4A57001AB3AF /* DateShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		DF06C49023EF4D74001AB3AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFDB58FB23EB3FCD002EC058 /* DateExt.swift */,
+				DF06C49123EF4D95001AB3AF /* ColorExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DF50220323CB8D520090CED4 /* FirebaseSession */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +224,9 @@
 		DFDD628623CA605B0030A90D /* StuffApp */ = {
 			isa = PBXGroup;
 			children = (
+				DF06C49023EF4D74001AB3AF /* Extensions */,
+				DF06C48D23EF4A38001AB3AF /* Shapes */,
+				DF06C48823EF3A38001AB3AF /* Model */,
 				DF50220323CB8D520090CED4 /* FirebaseSession */,
 				DFDD62C023CA6E500030A90D /* View */,
 				DFDD628723CA605B0030A90D /* AppDelegate.swift */,
@@ -232,6 +274,9 @@
 				DF772E4423CE457F0008539E /* SessionView.swift */,
 				DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */,
 				DFB35DE623E8C6E100CB3D4E /* UserCalendar.swift */,
+				DFDB58F923EB3D07002EC058 /* DateTimeView.swift */,
+				DF06C48B23EF4A07001AB3AF /* DateView.swift */,
+				DF06C49323EF4F8F001AB3AF /* TimeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -478,19 +523,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF06C48A23EF3A52001AB3AF /* TicketDate.swift in Sources */,
+				DF06C49223EF4D95001AB3AF /* ColorExt.swift in Sources */,
 				DF772E4723CE472D0008539E /* AuthView.swift in Sources */,
 				DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */,
 				DFB35DE723E8C6E100CB3D4E /* UserCalendar.swift in Sources */,
 				DFBC878223D907BF00428A0D /* RKManager.swift in Sources */,
 				DFBC878723D907BF00428A0D /* RKDate.swift in Sources */,
+				DF06C48C23EF4A07001AB3AF /* DateView.swift in Sources */,
+				DF06C49423EF4F8F001AB3AF /* TimeView.swift in Sources */,
 				DFF63AC923DB9F1600C1B9A6 /* UserCockpit.swift in Sources */,
 				DF772E4523CE457F0008539E /* SessionView.swift in Sources */,
+				DFDB58FC23EB3FCD002EC058 /* DateExt.swift in Sources */,
 				DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */,
+				DF06C48F23EF4A57001AB3AF /* DateShape.swift in Sources */,
 				DFBC878623D907BF00428A0D /* RKColorSettings.swift in Sources */,
 				DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */,
 				DFBC878423D907BF00428A0D /* RKMonth.swift in Sources */,
 				DFBC878523D907BF00428A0D /* RKCell.swift in Sources */,
 				DFBC878123D907BF00428A0D /* RKViewController.swift in Sources */,
+				DFDB58FA23EB3D07002EC058 /* DateTimeView.swift in Sources */,
 				DFBC878323D907BF00428A0D /* RKWeekdayHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

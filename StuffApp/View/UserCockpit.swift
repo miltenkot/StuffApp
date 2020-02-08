@@ -37,7 +37,4 @@ struct UserCockpit_Previews: PreviewProvider {
     }
 }
 
-//    Image("portret")
-//                   .scaleEffect(0.5)
-//                   .cornerRadius(150)
-//Text("Wnioski").foregroundColor(.blue)
+

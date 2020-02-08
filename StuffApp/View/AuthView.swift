@@ -45,7 +45,7 @@ struct SignInView: View {
             
            
             
-            TextField("Username", text: $email)
+            TextField("Email", text: $email)
                 .padding()
                 .background(lightGreyColor)
                 .cornerRadius(5.0)
