@@ -131,7 +131,7 @@ struct SignUpView: View {
                        .cornerRadius(150)
                        .padding(.bottom, 75)
             
-            TextField("Username", text: $email)
+            TextField("Email", text: $email)
                 .padding()
                 .background(lightGreyColor)
                 .cornerRadius(5.0)

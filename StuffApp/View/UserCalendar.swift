@@ -21,10 +21,12 @@ struct UserCalendar: View {
 
 
     var body: some View {
-        VStack{
-        RKViewController(isPresented: self.$multipleIsPresented, rkManager: self.rkManager3)
-            
+        NavigationView{ 
+                VStack(){
+                    RKViewController(isPresented: self.$multipleIsPresented, rkManager: self.rkManager3)
              DateTimeView(date: self.$date, hour: self.$hour)
+            
+        }
             
         }
     }

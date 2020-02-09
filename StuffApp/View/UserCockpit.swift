@@ -10,21 +10,18 @@ import SwiftUI
 
 struct UserCockpit: View {
     
-    @State var flag = true
-    
     var body: some View {
         NavigationView{
             VStack(){
-                Image("portret")
-                    .imageScale(.medium)
-                    .cornerRadius(150)
-                HStack {
-                    NavigationLink(destination: UserCalendar()){
-                        Text("Wnioski")
-                    }
+                PortretImage()
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
+                NavigationLink(destination: UserCalendar()){
+                    Text("Wnioski")
                     
                 }
-            }
+                
+            }.padding()
             
             
         }
@@ -38,3 +35,13 @@ struct UserCockpit_Previews: PreviewProvider {
 }
 
 
+
+struct PortretImage: View {
+    var body: some View {
+        Image("portret")
+            .clipShape(Circle())
+            .overlay(
+                Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: 10)
+    }
+}
