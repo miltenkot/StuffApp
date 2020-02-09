@@ -16,9 +16,9 @@ struct TimeView: View {
 
     var body: some View {
         Text("\(index):00")
-            .foregroundColor(isSelected ? .white : .textColor)
+            .foregroundColor(isSelected ? .white : .black)
             .padding()
-            .background( isSelected ? Color.accent : Color.gray.opacity(0.3))
+            .background( isSelected ? Color.green : Color.gray.opacity(0.3))
             .cornerRadius(10).onTapGesture {
                 self.onSelect(self.index)
         }

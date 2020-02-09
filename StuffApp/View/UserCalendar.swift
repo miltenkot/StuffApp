@@ -10,25 +10,26 @@ import SwiftUI
 
 struct UserCalendar: View {
     
-@State var multipleIsPresented = false
-  
-@State private var date: TicketDate = TicketDate.default
-        @State private var hour: String = ""
+    @State var multipleIsPresented = false
+    
+    @State private var date: TicketDate = TicketDate.default
+    @State private var hour: String = ""
     
     
-  var rkManager3 = RKManager(calendar: Calendar.current, minimumDate: Date(), maximumDate: Date().addingTimeInterval(60*60*24*365), mode: 3)
-  var rkManager4 = RKManager(calendar: Calendar.current, minimumDate: Date(), maximumDate: Date().addingTimeInterval(60*60*24*365), mode: 0)
-
-
+    var rkManager3 = RKManager(calendar: Calendar.current, minimumDate: Date(), maximumDate: Date().addingTimeInterval(60*60*24*365), mode: 3)
+    var rkManager4 = RKManager(calendar: Calendar.current, minimumDate: Date(), maximumDate: Date().addingTimeInterval(60*60*24*365), mode: 0)
+    
+    
     var body: some View {
-        NavigationView{ 
-                VStack(){
-                    RKViewController(isPresented: self.$multipleIsPresented, rkManager: self.rkManager3)
-             DateTimeView(date: self.$date, hour: self.$hour)
+        NavigationView{
+        VStack(){
+            RKViewController(isPresented: self.$multipleIsPresented, rkManager: self.rkManager3)
+            DateTimeView(date: self.$date, hour: self.$hour)
+            SendRequestButtonView(text: "Send", action: {}).padding()
             
+        }.padding()
         }
-            
-        }
+        
     }
     
     func datesView(dates: [Date]) -> some View {
@@ -44,12 +45,12 @@ struct UserCalendar: View {
     
     func startUp() {
         
-            rkManager3.colors.weekdayHeaderColor = Color.blue
-            rkManager3.colors.monthHeaderColor = Color.green
-            rkManager3.colors.textColor = Color.blue
-            rkManager3.colors.disabledColor = Color.red
-            
-        }
+        rkManager3.colors.weekdayHeaderColor = Color.blue
+        rkManager3.colors.monthHeaderColor = Color.green
+        rkManager3.colors.textColor = Color.blue
+        rkManager3.colors.disabledColor = Color.red
+        
+    }
     
     func getTextFromDate(date: Date!) -> String {
         let formatter = DateFormatter()

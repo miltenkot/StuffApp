@@ -13,7 +13,6 @@
 		DF06C48A23EF3A52001AB3AF /* TicketDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C48923EF3A52001AB3AF /* TicketDate.swift */; };
 		DF06C48C23EF4A07001AB3AF /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C48B23EF4A07001AB3AF /* DateView.swift */; };
 		DF06C48F23EF4A57001AB3AF /* DateShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C48E23EF4A57001AB3AF /* DateShape.swift */; };
-		DF06C49223EF4D95001AB3AF /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C49123EF4D95001AB3AF /* ColorExt.swift */; };
 		DF06C49423EF4F8F001AB3AF /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06C49323EF4F8F001AB3AF /* TimeView.swift */; };
 		DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50220423CB8D710090CED4 /* SessionStore.swift */; };
 		DF772E4523CE457F0008539E /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4423CE457F0008539E /* SessionView.swift */; };
@@ -36,6 +35,7 @@
 		DFDD629F23CA60640030A90D /* StuffAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD629E23CA60640030A90D /* StuffAppTests.swift */; };
 		DFDD62AA23CA60640030A90D /* StuffAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD62A923CA60640030A90D /* StuffAppUITests.swift */; };
 		DFDD62BF23CA6C9F0030A90D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */; };
+		DFE8EF3D23F0259F004CE76A /* SendRequestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF3C23F0259F004CE76A /* SendRequestButtonView.swift */; };
 		DFF63AC923DB9F1600C1B9A6 /* UserCockpit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,6 @@
 		DF06C48923EF3A52001AB3AF /* TicketDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDate.swift; sourceTree = "<group>"; };
 		DF06C48B23EF4A07001AB3AF /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		DF06C48E23EF4A57001AB3AF /* DateShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateShape.swift; sourceTree = "<group>"; };
-		DF06C49123EF4D95001AB3AF /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
 		DF06C49323EF4F8F001AB3AF /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		DF50220423CB8D710090CED4 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		DF772E4423CE457F0008539E /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		DFDD62A923CA60640030A90D /* StuffAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffAppUITests.swift; sourceTree = "<group>"; };
 		DFDD62AB23CA60640030A90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFE8EF3C23F0259F004CE76A /* SendRequestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestButtonView.swift; sourceTree = "<group>"; };
 		DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCockpit.swift; sourceTree = "<group>"; };
 		F7D23860735BDB41071BF0A5 /* Pods_StuffApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StuffApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -172,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				DFDB58FB23EB3FCD002EC058 /* DateExt.swift */,
-				DF06C49123EF4D95001AB3AF /* ColorExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -277,6 +276,7 @@
 				DFDB58F923EB3D07002EC058 /* DateTimeView.swift */,
 				DF06C48B23EF4A07001AB3AF /* DateView.swift */,
 				DF06C49323EF4F8F001AB3AF /* TimeView.swift */,
+				DFE8EF3C23F0259F004CE76A /* SendRequestButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -524,7 +524,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF06C48A23EF3A52001AB3AF /* TicketDate.swift in Sources */,
-				DF06C49223EF4D95001AB3AF /* ColorExt.swift in Sources */,
 				DF772E4723CE472D0008539E /* AuthView.swift in Sources */,
 				DF50220523CB8D720090CED4 /* SessionStore.swift in Sources */,
 				DFB35DE723E8C6E100CB3D4E /* UserCalendar.swift in Sources */,
@@ -537,6 +536,7 @@
 				DFDB58FC23EB3FCD002EC058 /* DateExt.swift in Sources */,
 				DFDD628823CA605B0030A90D /* AppDelegate.swift in Sources */,
 				DF06C48F23EF4A57001AB3AF /* DateShape.swift in Sources */,
+				DFE8EF3D23F0259F004CE76A /* SendRequestButtonView.swift in Sources */,
 				DFBC878623D907BF00428A0D /* RKColorSettings.swift in Sources */,
 				DFDD628A23CA605B0030A90D /* SceneDelegate.swift in Sources */,
 				DFBC878423D907BF00428A0D /* RKMonth.swift in Sources */,

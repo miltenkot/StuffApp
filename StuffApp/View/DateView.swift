@@ -19,15 +19,15 @@ struct DateView: View {
             Text("\(date.day)")
                 .font(.title)
                 .bold()
-                .foregroundColor(isSelected ? .white : .textColor)
+                .foregroundColor(isSelected ? .white : .black)
             
             Text("\(date.month)/\(date.year)")
-                .foregroundColor(isSelected ? .white : .textColor)
+                .foregroundColor(isSelected ? .white : .black)
                 .font(.callout)
                 .padding(.top, 10)
             
         }.padding()
-            .background( isSelected ? Color.accent: Color.gray.opacity(0.3))
+            .background( isSelected ? Color.green: Color.gray.opacity(0.3))
             .clipShape(DateShape())
             .cornerRadius(10)
             .onTapGesture {
