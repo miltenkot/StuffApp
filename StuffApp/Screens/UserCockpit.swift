@@ -10,21 +10,28 @@ import SwiftUI
 
 struct UserCockpit: View {
     
+      @State private var showCalendar: Bool = false
+    
     var body: some View {
         NavigationView{
             VStack(){
                 PortretImage()
                     .offset(y: -130)
                     .padding(.bottom, -130)
-                NavigationLink(destination: UserCalendar()){
-                    Text("Wnioski")
-                    
-                }
+                createShowPlannerViewButton()
                 
             }.padding()
             
             
         }
+    }
+    
+    fileprivate func createShowPlannerViewButton() -> some View {
+        return SendRequestButtonView(text: "Wnioski"){
+            self.showCalendar.toggle()
+        }.sheet(isPresented: self.$showCalendar) {
+            UserPlanner()
+        }.padding(.vertical)
     }
 }
 
@@ -32,7 +39,10 @@ struct UserCockpit_Previews: PreviewProvider {
     static var previews: some View {
         UserCockpit()
     }
+    
 }
+
+
 
 
 

@@ -57,7 +57,6 @@ struct DateTimeView: View {
             }
         }
     }
-    
 }
 
 struct DateTimeView_Previews: PreviewProvider {
