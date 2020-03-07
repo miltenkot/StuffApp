@@ -18,6 +18,7 @@
 		DF682A6823F038D7006C6782 /* UserPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF682A6723F038D7006C6782 /* UserPlanner.swift */; };
 		DF772E4523CE457F0008539E /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4423CE457F0008539E /* SessionView.swift */; };
 		DF772E4723CE472D0008539E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF772E4623CE472C0008539E /* AuthView.swift */; };
+		DF79BE6C23F9E8CC00B69FE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF79BE6B23F9E8CB00B69FE9 /* GoogleService-Info.plist */; };
 		DFB35DE723E8C6E100CB3D4E /* UserCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB35DE623E8C6E100CB3D4E /* UserCalendarView.swift */; };
 		DFBC878123D907BF00428A0D /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877A23D907BF00428A0D /* RKViewController.swift */; };
 		DFBC878223D907BF00428A0D /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC877B23D907BF00428A0D /* RKManager.swift */; };
@@ -35,7 +36,6 @@
 		DFDD629423CA60630030A90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDD629223CA60630030A90D /* LaunchScreen.storyboard */; };
 		DFDD629F23CA60640030A90D /* StuffAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD629E23CA60640030A90D /* StuffAppTests.swift */; };
 		DFDD62AA23CA60640030A90D /* StuffAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD62A923CA60640030A90D /* StuffAppUITests.swift */; };
-		DFDD62BF23CA6C9F0030A90D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */; };
 		DFE8EF3D23F0259F004CE76A /* SendRequestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF3C23F0259F004CE76A /* SendRequestButtonView.swift */; };
 		DFF63AC923DB9F1600C1B9A6 /* UserCockpit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +74,7 @@
 		DF682A6723F038D7006C6782 /* UserPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlanner.swift; sourceTree = "<group>"; };
 		DF772E4423CE457F0008539E /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		DF772E4623CE472C0008539E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		DF79BE6B23F9E8CB00B69FE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DFB35DE623E8C6E100CB3D4E /* UserCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCalendarView.swift; sourceTree = "<group>"; };
 		DFBC877A23D907BF00428A0D /* RKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
 		DFBC877B23D907BF00428A0D /* RKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKManager.swift; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		DFDD62A523CA60640030A90D /* StuffAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuffAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDD62A923CA60640030A90D /* StuffAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffAppUITests.swift; sourceTree = "<group>"; };
 		DFDD62AB23CA60640030A90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DFE8EF3C23F0259F004CE76A /* SendRequestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestButtonView.swift; sourceTree = "<group>"; };
 		DFF63AC823DB9F1600C1B9A6 /* UserCockpit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCockpit.swift; sourceTree = "<group>"; };
 		F7D23860735BDB41071BF0A5 /* Pods_StuffApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StuffApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,7 +245,7 @@
 				DFDD628D23CA60630030A90D /* Assets.xcassets */,
 				DFDD629223CA60630030A90D /* LaunchScreen.storyboard */,
 				DFDD629523CA60630030A90D /* Info.plist */,
-				DFDD62BE23CA6C9F0030A90D /* GoogleService-Info.plist */,
+				DF79BE6B23F9E8CB00B69FE9 /* GoogleService-Info.plist */,
 				DFBC877923D907BF00428A0D /* CalendarManager */,
 				DFDD628F23CA60630030A90D /* Preview Content */,
 			);
@@ -402,7 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDD629423CA60630030A90D /* LaunchScreen.storyboard in Resources */,
-				DFDD62BF23CA6C9F0030A90D /* GoogleService-Info.plist in Resources */,
+				DF79BE6C23F9E8CC00B69FE9 /* GoogleService-Info.plist in Resources */,
 				DFDD629123CA60630030A90D /* Preview Assets.xcassets in Resources */,
 				DFDD628E23CA60630030A90D /* Assets.xcassets in Resources */,
 			);
@@ -470,6 +470,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-StuffApp/Pods-StuffApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -477,6 +478,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -494,6 +496,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-StuffApp-StuffAppUITests/Pods-StuffApp-StuffAppUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -501,6 +504,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);

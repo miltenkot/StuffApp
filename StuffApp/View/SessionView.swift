@@ -35,6 +35,7 @@ struct SessionView: View {
             
         }.onAppear(perform: getUser)
     }
+    
 }
 
 struct SessionView_Previews: PreviewProvider {

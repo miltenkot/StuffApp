@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct DateView: View {
+    
+    
     var date: TicketDate = TicketDate(day: "03", month: "11", year: "20")
     var isSelected: Bool
     var onSelect: ((TicketDate)->()) = {_ in }
@@ -32,6 +34,7 @@ struct DateView: View {
             .cornerRadius(10)
             .onTapGesture {
                 self.onSelect(self.date)
+            
         }
     }
 }

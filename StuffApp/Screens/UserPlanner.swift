@@ -22,7 +22,7 @@ struct UserPlanner: View {
     var body: some View {
         VStack {
             
-            UserCalendarView()
+            //UserCalendarView()
             
             DateTimeView(date: self.$date, hour: self.$hour)
           
